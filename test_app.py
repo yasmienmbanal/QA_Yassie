@@ -1,5 +1,6 @@
 from app import categorize_numbers
 
+
 def test_categorize_numbers_empty():
     evens, odds = categorize_numbers([])
     assert evens == []
