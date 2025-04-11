@@ -22,4 +22,3 @@ def test_categorize_numbers_all_odd():
     evens, odds = categorize_numbers([1, 3, 5, 7])
     assert evens == []
     assert odds == [1, 3, 5, 7]
-    
